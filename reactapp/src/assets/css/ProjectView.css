@@ -1,0 +1,106 @@
+.project-view {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #5f2c82, #49a09d);
+    color: white;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.project-view:hover {
+    transform: translateY(-5px);
+}
+
+.project-view h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* New table-specific styles */
+.project-view table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.project-view th, .project-view td {
+    border: 1px solid #9ba6a6;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.project-view th {
+    background-color: #34515e;
+}
+
+.project-view tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.project-view tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* End of table-specific styles */
+
+.project-view .project-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.project-view:hover .project-details {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-view .project-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.project-view button {
+    display: block;
+    margin-top: 20px;
+    padding: 8px 18px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid #9ba6a6;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.project-view button:hover {
+    background-color: #49a09d;
+    color: #5f2c82;
+    border-color: #5f2c82;
+}
+
+.project-view ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-view li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 10px;
+}
+
+.project-view li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #49a09d;
+}

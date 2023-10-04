@@ -1,0 +1,113 @@
+.home {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background:#3A8E7A;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  .hero-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  
+  .hero-image {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px 0;
+  }
+  
+  .feature {
+    flex: 1;
+    text-align: center;
+    margin: 0 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    height: 100%; /* Ensure all features have the same height */
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 150px; /* Set a maximum height for the images */
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Call to Action (CTA) section styles */
+  .cta {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .cta h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff9900;
+  }
+  
+  /* Footer styles */
+  /* Add your custom footer styles here */
+  
+  /* Additional custom styles can be added as needed */
+  
